@@ -1,0 +1,13 @@
+<!-- app/views/rooms/show.html.erb -->
+<h1><%= @room.name %></h1>
+
+<%= render 'players/form', room: @room, player: @player %>
+
+<h2>Players</h2>
+<ul>
+  <% @players.each do |player| %>
+    <li><%= player.name %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Back', rooms_path %>

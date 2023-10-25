@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  bio: MyString
+  health: MyString
+  phobia: MyString
+  hobby: MyString
+  personality: MyString
+  baggage: MyString
+  additional_info: MyText
+
+two:
+  name: MyString
+  bio: MyString
+  health: MyString
+  phobia: MyString
+  hobby: MyString
+  personality: MyString
+  baggage: MyString
+  additional_info: MyText

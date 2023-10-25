@@ -1,0 +1,13 @@
+<!-- app/views/rooms/index.html.erb -->
+<h1>Rooms</h1>
+
+<ul>
+  <% @rooms.each do |room| %>
+    <li>
+      <%= link_to room.name, room_path(room) %>
+      (<%= room.players.count %> players)
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to 'New Room', new_room_path %>
